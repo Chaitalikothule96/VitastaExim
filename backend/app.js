@@ -32,7 +32,7 @@ router.post("/send/mail", async (req, res, next) => {
   }
   try {
     await sendEmail({
-      email: "itselfchaitali@gmail.com",
+      email: "tejasvyewahare@gmail.com",
       subject: "Vitasta Exim Inquiry",
       name,
       contact: phone,
