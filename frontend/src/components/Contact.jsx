@@ -24,7 +24,7 @@ const Contact = () => {
 
   setLoading(true);
   try {
-    const { data } = await axios.post("http://localhost:4000/send/mail",
+    const { data } = await axios.post("https://vitastaexim-backend.onrender.com/send/mail",
       {
         name,
         email,
